@@ -29,9 +29,8 @@ class ViewController: UIViewController {
         let answer: String = answers[currentQuestionIndex]
         answerLabel.text = answer;
     }
-    
-    let questions: [String] = ["From what is cognac made?", "What is 7+7?","What is the capital of Vermont?"]
-    let answers: [String] =  ["Grapes","14","Monpelier"]
+    let questions: [String] = ["What's the capital of America?", "What's 167 x 4?","Who's elected as 45th president of the United States of America?"]
+    let answers: [String] =  ["Washington DC","","Donald Trump"]
     
     var currentQuestionIndex: Int = 0;
     
